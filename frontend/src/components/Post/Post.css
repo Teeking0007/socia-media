@@ -1,0 +1,26 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background: var(--cardColor);
+    border-radius: 1rem;
+    padding: .5rem;
+}
+.post>img {
+    width: 100%;
+    max-height: 20rem;
+    border-radius: 1rem;
+    object-fit: center;
+}
+.post-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.post>div{
+    display: flex;
+    gap: .7rem;
+}
+.post>div>span:nth-of-type(1){
+    font-weight: bold;
+}

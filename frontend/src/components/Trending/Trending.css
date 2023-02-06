@@ -1,0 +1,10 @@
+.trending {
+    display: flex;
+    flex-direction: column;
+    background: var(--cardColor);
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+

@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.search {
+    display: flex;
+    border-radius: 15px 0 0 15px;
+    background: var(--inputColor);
+    border-radius: 10px;
+}
+.search input {
+    border: none;
+    outline: none;
+    width: 180px;
+    padding: 0 .5rem;
+    background: transparent;
+}
+.search div {
+    background: var(--orange);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.homeLeft{
+    flex: 1;
+}
+.homeFeed{
+    flex: 2;
+}
+.homeRight {
+    flex: 1.1;
+}

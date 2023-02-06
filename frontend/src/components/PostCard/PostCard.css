@@ -1,0 +1,53 @@
+.post-card {
+    display: flex;
+    gap: 1rem;
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.p-img>img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.p-share {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex: 1;
+}
+.p-share>input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: var(--inputColor);
+
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    cursor: pointer;
+}
+.previewImage {
+    position: relative;
+}
+.times {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.previewImage>img{
+    width: 100%;
+    max-height: 20rem;
+    border-radius: 0.5rem;
+}

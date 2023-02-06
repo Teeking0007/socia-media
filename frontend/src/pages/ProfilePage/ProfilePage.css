@@ -1,0 +1,14 @@
+.profile-page{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.profileLeft{
+    flex: 1;
+}
+.profileFeed{
+    flex: 2;
+}
+.profileRight {
+    flex: 1.1;
+}
